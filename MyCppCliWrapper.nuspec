@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MyCppCliWrapper</id>
+    <version>1.0.0</version>
+    <authors>psmdv</authors>
+    <owners>psmdv</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/psmdv/MyCPPCliWrapper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A C++/CLI wrapper for a native C++ library.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2025</copyright>
+    <tags>cpp cli wrapper</tags>    
+  </metadata>
+  <files>
+    <file src="README.md" target="README.md" />
+    <file src="build/bin/Release/MyCppCliWrapper.dll" target="lib/net8.0/MyCppCliWrapper.dll" />
+    <file src="build/lib/Release/MyCppLibrary.lib" target="lib/native/MyCppLibrary.lib" />
+    <file src="MyCppCliWrapper/MyCppCliWrapper.h" target="build/native/include/MyCppCliWrapper.h" />
+    <file src="MyCppLibrary/MyCppLibrary.h" target="build/native/include/MyCppLibrary.h" />
+  </files>
+</package>
